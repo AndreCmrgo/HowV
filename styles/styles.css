@@ -40,7 +40,7 @@ nav ul li a.active {
 
 /* Hero Banner */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/rendering.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/rendering.jpg');
     background-size: cover;
     height: 60vh;
     display: flex;
