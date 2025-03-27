@@ -40,7 +40,7 @@ nav ul li a.active {
 
 /* Hero Banner */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1200x600');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/rendering.jpg');
     background-size: cover;
     height: 60vh;
     display: flex;
@@ -69,11 +69,49 @@ nav ul li a.active {
     margin-top: 15px;
 }
 
+/* Sobre */
+
+.div-sobre {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.diferenciais {
+    margin-top: 3rem;
+}
+
+.diferencial {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1.11fr;
+    gap: 10px;
+}
+
+.diferencial h3 {
+    text-align: left;
+}
+
+.diferencial i {
+    margin-right: 10px;
+    text-align: right;
+}
+
+.diferencial #i2 {
+    margin-right: 12.5px;
+}
+
 /* Cards de Imóveis */
 .grid-imoveis {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
+    padding: 2rem 5%;
+}
+
+.imoveis-lista h2 {
     padding: 2rem 5%;
 }
 
@@ -89,7 +127,7 @@ nav ul li a.active {
     object-fit: cover;
 }
 
-.card-imovel h3 {
+.card-imovel h3, .card-imovel p, .card-imovel a {
     margin: 10px;
 }
 
@@ -101,10 +139,25 @@ nav ul li a.active {
 }
 
 /* Formulário de Contato */
-form {
+
+
+.contato {
     max-width: 600px;
     margin: 2rem auto;
     padding: 20px;
+}
+
+.contato button {
+    margin-bottom: 15px;
+}
+
+.contato i {
+    margin-right: 10px;
+}
+
+.contato #i1 {
+    margin-right: 12px;
+    margin-left: 2px;
 }
 
 form input, form textarea {
@@ -121,6 +174,10 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem;
+    margin-top: 2rem;
+}
+
+.social {
     margin-top: 2rem;
 }
 
